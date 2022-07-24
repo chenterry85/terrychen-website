@@ -73,7 +73,6 @@ header {
 /* Tablets */
 @media screen and (max-width: 1024px) {
   .container {
-    background: green;
     height:68vh;
   }
 }
@@ -81,7 +80,6 @@ header {
 /* Mobiles */
 @media screen and (max-width: 600px) {
   .container {
-    background: red;
     height: 100vh;
   }
 

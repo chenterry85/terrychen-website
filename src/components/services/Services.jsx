@@ -1,9 +1,12 @@
 import React from 'react'
 import './services.css'
+import {BiCheck} from 'react-icons/bi'
 
 const Services = () => {
   return (
-    <section id='services'>Services</section>
+    <section id='services'>
+      
+    </section>
   )
 }
 
