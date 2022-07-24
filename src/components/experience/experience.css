@@ -46,7 +46,7 @@
 /* Tablets */
 @media screen and (max-width: 1024px) {
   #experience {
-    margin-top: 20rem;
+    margin-bottom: 23rem;
   }
 
   .experience__container {
@@ -67,7 +67,7 @@
 /* Mobiles */
 @media screen and (max-width: 600px) {
   #experience {
-    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 
   .experience__container {

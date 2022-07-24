@@ -120,6 +120,7 @@ img {
   }
 
   section {
+    height: auto;
     margin-top: 6rem;
   }
 }
