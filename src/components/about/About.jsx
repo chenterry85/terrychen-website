@@ -1,9 +1,13 @@
 import React from 'react'
 import './about.css'
+import ME from './../../assets/dp.png'
+import {IoIosCodeWorking} from 'react-icons/io'
 
 const About = () => {
   return (
-    <div>About</div>
+    <section id="about">
+      
+    </section>
   )
 }
 
