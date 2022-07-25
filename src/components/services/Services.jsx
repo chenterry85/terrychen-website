@@ -113,6 +113,7 @@ const Services = () => {
           </ul>
         </article>
       </div>
+      <div class="clear"></div>
     </section>
   )
 }
