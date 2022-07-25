@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  height: auto;
 }
 
 /* frontend & backend divs */
@@ -45,10 +46,6 @@
 
 /* Tablets */
 @media screen and (max-width: 1024px) {
-  #experience {
-    margin-bottom: 23rem;
-  }
-
   .experience__container {
     grid-template-columns: 1fr;
   }
@@ -66,10 +63,6 @@
 
 /* Mobiles */
 @media screen and (max-width: 600px) {
-  #experience {
-    margin-bottom: 12rem;
-  }
-
   .experience__container {
     row-gap: 1rem;
   }
