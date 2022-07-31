@@ -40,6 +40,8 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url('./assets/bg-texture.png');
+  background-image: linear-gradient(to right, rgba(0,0,255,0.1), rgba(0,255,0,0.5));
+
 }
 
 /* ================ General Styles ================ */
