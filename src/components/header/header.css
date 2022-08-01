@@ -86,4 +86,9 @@ header {
   .header__socials, .scroll__down {
     display: none;
   }
+
+  .me {
+    width: 20rem;
+    height: 25rem;
+  }
 }

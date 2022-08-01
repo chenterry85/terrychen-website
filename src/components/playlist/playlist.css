@@ -1,0 +1,44 @@
+.playlist__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  color: var(--color-white)
+}
+
+.playlist__text {
+  margin: 50% 10%;
+}
+
+.playlist__spotify {
+  margin: auto;
+}
+
+iframe {
+  height: 30rem;
+  width: 26rem;
+  border-radius: 1.2rem;
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  .playlist__container {
+    grid-template-columns: 1fr;
+  }
+  
+  .playlist__text {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+}
+
+/* Mobiles */
+@media screen and (max-width: 600px) {
+  iframe {
+    height: 34rem;
+    width: 20rem;
+  }
+}
