@@ -62,6 +62,10 @@ input, textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  button {
+    margin: auto;
+  }
 }
 
 /* Mobiles */

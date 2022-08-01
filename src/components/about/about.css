@@ -65,6 +65,7 @@
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
   font-family: 'Fira Mono', monospace;
+  height: auto;
 }
 
 /* ========== Media Queries (Media Devices) ========== */
@@ -104,6 +105,6 @@
   }
 
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 4rem 0;
   }
 }

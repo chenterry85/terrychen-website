@@ -6,7 +6,7 @@
 
 h2 {
   text-align: center;
-  color: var(--color-white)
+  color: var(--color-primary)
 }
 
 .playlist__text {
@@ -30,8 +30,7 @@ iframe {
   }
   
   .playlist__text {
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin: 10% auto;
   }
 }
 
@@ -40,5 +39,9 @@ iframe {
   iframe {
     height: 34rem;
     width: 20rem;
+  }
+
+  .playlist__text {
+    margin-bottom: 10%;
   }
 }
